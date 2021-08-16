@@ -1,21 +1,31 @@
 {
-    "name": "coopertheme",
-    "displayName": "CooperTheme",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.58.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Cooper Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Cooper Theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "coopertheme",
+  "displayName": "CooperTheme",
+  "description": "A dark theme with a colourful twist",
+  "publisher": "Chris Cooper",
+  "author": {
+    "name": "Chris Cooper",
+    "email": "ccooper93@icloud.com",
+    "url": "https://www.linkedin.com/in/chris-cooper-a77b8511a/"
+  },
+  "repository": {
+    "url": "https://github.com/chriscooper93/coopertheme.git",
+    "type": "git"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cooper Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cooper Theme-color-theme.json"
+      }
+    ]
+  }
 }
